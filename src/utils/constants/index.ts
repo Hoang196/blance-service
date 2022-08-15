@@ -1,14 +1,14 @@
 const APP_CONSTANTS = {
-  apiPrefix: '',
+  apiPrefix: '/blance-management',
   params: 'params',
   query: 'query',
   body: 'body',
   file: 'file',
-  service: 'express-template',
+  service: 'blance-service',
 };
 
 const DEFAULT_PAGING = {
-  limit: 100,
+  limit: 20,
   skip: 0,
 };
 

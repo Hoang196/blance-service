@@ -14,6 +14,8 @@ if (fs.existsSync(pathEnv)) {
 export default {
   env: process.env.NODE_ENV,
   port: process.env.PORT,
+  aesSecretKey: process.env.AES_SECRET_KEY,
+  internalApiKey: process.env.INTERNAL_API_KEY,
   postgresSQL: {
     schema: process.env.POSTGRES_SCHEMA,
     db: process.env.POSTGRES_DB,
